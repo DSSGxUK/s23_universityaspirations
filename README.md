@@ -1,6 +1,8 @@
 # University Aspirations DSSGx-UK Project 2023
 
-Experiments for the DSSGx-UK 2023 university aspirations project with United Learning.
+University enrolment in the UK is higher today than ever before. Despite this, many students across the country do not pursue their aspirations towards higher education (HE), even if they have the academic ability. Schools would like to make sure that pupils make use of their academic potential to achieve their desired pathway, and could help overcome potential hurdles these students face in pursuing higher education – if they knew which students may need support.
+
+In this project, we identify year 9 pupils who might be lacking the confidence to fulfil their academic potential, as those with a high chance of getting good GCSE grades but a low chance of attending sixth form. United Learning can then look into these students on a case-by-case basis, providing career support where appropriate.
 
 ## Installation
 Prior to installation, you can clone the repository. We use python 3.10.11, and the requirements file specifies versions of all other packages. A virtual environment ul-env (replace ul-env with any other name) can be created in the command line:
