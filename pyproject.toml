@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=67.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uni_asp"
+version = "0.0.1"
+description = "Pipeline for DSSGx 2023 university aspirations project for United Learning"
+readme = "README.md"
+requires-python = ">=3.10.11"
+license = {file = "LICENSE.txt"}
+dependencies = [
+    "pandas>=1.5.3,<1.6",
+    "numpy",
+    "pandera",
+    "matplotlib",
+    "seaborn",
+    "pyarrow",
+    "scikit-learn",
+]
+[project.optional-dependencies]
+test = ["pytest"]
+dev = ["ipython", "notebook", "nbstripout", "pre-commit"]
+
+[project.scripts]
+run-uni-asp = "uni_asp.main:main"
